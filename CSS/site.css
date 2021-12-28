@@ -13,6 +13,12 @@ main>.container {
     background-attachment: fixed;
 }
 
+body>main
+{
+  margin-top: 20px;
+  margin-bottom: 60px;  
+}
+
 .bg
 {
     background-color: #2f75ba;  
