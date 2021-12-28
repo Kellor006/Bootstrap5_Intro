@@ -12,10 +12,19 @@ main>.container {
     background-color: #2f75ba;
     background-attachment: fixed;
 }
+
+.bg
+{
+    background-color: #2f75ba;  
+}
 .homeText 
 {
     font-family: 'VT323', monospace;
     font-weight: 400;
     font-style: normal;
     color: rgb(0, 0, 0);
+}
+
+.minHeight {
+    min-height: 80vh;
 }
