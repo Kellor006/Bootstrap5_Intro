@@ -1,7 +1,7 @@
 html,
 body {
     position: relative;
-    color: #212121;
+    color: #202020;
     height: 100%;
     min-height: 100%;
 }
@@ -16,13 +16,13 @@ body>main {
     font-family: modesto-open-shadow, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: rgb(195, 255, 0);
+    color: rgb(0, 38, 255);
 }
 
 .bgimage {
 
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/GridBG.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/GridBG.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -32,4 +32,15 @@ body>main {
 
 .minHeight {
     min-height: 80vh;
+}
+
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+.sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
