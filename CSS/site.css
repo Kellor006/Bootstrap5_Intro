@@ -3,11 +3,19 @@ main>.container {
     margin-bottom: 5rem;
 }
 
-.homeBG {
+.homeBG 
+{
     width:100%;
-    background: url(/IMG/Dump.png);
+    background: url(/IMG/StreetCar.gif);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-color: #2f75ba;
     background-attachment: fixed;
+}
+.homeText 
+{
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
 }
