@@ -40,7 +40,7 @@
                         <a class="nav-link" href="Grid2.html">Grid 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Grid3.html">Grid 3</a>
+                        <a class="nav-link active" aria-current="page" href="Grid3.html">Grid 3</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Grid4.html">Grid 4</a>
@@ -49,7 +49,7 @@
                         <a class="nav-link" href="Grid5.html">Grid 5</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Grid6.html">Grid 6</a>
+                        <a class="nav-link" href="Grid6.html">Grid 6</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Grid7.html">Grid 7</a>
@@ -66,26 +66,57 @@
     </nav>
 
     <main class="flex-shrink-0">
-       <div class="container h-100 minHeight">
-           <div class ="row h-100 gy-2 row-cols-1 row-cols-md-2">
-               <div class = "col col-md-12">
-                   <div class = "bg-secondary text-light h-100">
-                    <h3 class = "homeText text-light text-center">Col 1</h3>
-                   </div>
-               </div>
-               <div class = "col col-md-6 order-last">
-                <div class = "bg-dark text-light h-100">
-                    <h3 class = "homeText text-light text-center ">Col 2</h3>
-                </div>
-               </div>
-               <div class = "col col-md-6">
-                <div class = "bg-secondary text-light h-100">
-                    <h3 class = "homeText text-light text-center ">Col 3</h3>
-                </div>
-               </div>
-
+       <div class="container h-100 bg-dark">
+           <div class = "row">
+            <label class = "text-light text-center homeText"><h1>Contact Me</h1></label>
            </div>
-       </div>
+           <div class = row>
+            <div class = "col">
+                <form></form>
+                <label class = "text-light homeText">First Name</label>
+                    <input class = "form-control" type="text" placeholder ="First Name" aria-label="FirstName">
+                </form>
+            </div>
+               <div class = "col">
+                <form>
+                    <label class = "text-light homeText">Last Name</label>
+                    <input class = "form-control" type="text" placeholder ="LastName" aria-label="LastName">
+                </form>
+            </div>     
+        </div>
+    <div class = row>
+        <div class = "col">
+            <form>
+                <label class = "text-light homeText">Email</label>
+                <input class = "form-control" type="email" placeholder ="email@email" aria-label="emailInput">
+            </form>
+        </div>
+            <div class = "col">
+        <form>
+                <label class = "text-light homeText">Phone(optional)</label>
+                 <input class = "form-control" type="number" placeholder ="Phone" aria-label="Phonenumber">
+            </form>
+        </div>     
+    </div>
+    <div class = row>
+        <div class = "col">
+            <form>
+                <label class = "text-light homeText">Subject</label>
+                <input class = "form-control" type="text" placeholder ="Subject" aria-label="Subject">
+            </form>
+        </div>     
+    </div>
+    <div class = row>
+        <div class = "col">
+            <form>
+                <label class = "text-light homeText">Messege</label>
+                <input class = "form-control" type="text" placeholder ="Messege" aria-label="Messege">
+            </form>
+                <input class="btn btn-primary btn-md gap-2" type="submit" value="Submit">
+        </div>     
+    </div>
+    
+        
     </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
         <div class="container-fluid text-center">
